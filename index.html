@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Гитарный клуб</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-flex">
+            <div class="logo">Гитарный клуб</div>
+            <div class="nav-links">
+              <a href="#hero" class="nav-link active">Главная</a>
+              <a href="#why" class="nav-link">О нас</a>
+              <a href="#gallery" class="nav-link">Галерея</a>
+              <a href="#join" class="nav-link">Вступить</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="hero" class="hero">
+        <div class="hero-bg">
+          <img src="./image/bg.jpg" alt="" />
+          <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="animate-title">
+              <span class="title-line">Гитарный клуб</span>
+              <span class="title-line accent">ТСПК</span>
+              <span class="title-line">Играй, Выступай! Живи музыкой!</span>
+            </h1>
+            <button class="btn btn-primary" id="joinBtn">
+              <span>Вступить в клуб</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="why" class="why">
+        <div class="container">
+          <h2 class="section-title">Почему стоит присоединиться к нам?</h2>
+          <div class="why-grid">
+            <div class="why-grid-card">
+              <div class="why-icon">🎶</div>
+              <h3>Обучаемся с нуля</h3>
+              <p>
+                Даже если вы никогда не держали гитару — мы научим с самых основ
+              </p>
+            </div>
+            <div class="why-grid-card">
+              <div class="why-icon">🎸</div>
+              <h3>Концерты</h3>
+              <p>Регулярные выступления на сцене и open-air мероприятия</p>
+            </div>
+            <div class="why-grid-card">
+              <div class="why-icon">🤝</div>
+              <h3>Коммьюнити</h3>
+              <p>Дружное сообщество музыкантов и совместные джем-сессии</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="schedule-section">
+        <h2 class="section-title">Расписание</h2>
+
+        <div class="schedule-container">
+          <div class="schedule-list">
+            <div class="schedule-item">
+              <div class="schedule-date">ПН, 16 Марта</div>
+              <div class="schedule-info">302 каб. - 15:00 (новички)</div>
+            </div>
+
+            <div class="schedule-item">
+              <div class="schedule-date">ВТ, 17 Марта</div>
+              <div class="schedule-info">
+                302 каб. - 16:00 (средний уровень)
+              </div>
+            </div>
+
+            <div class="schedule-item">
+              <div class="schedule-date">СР, 18 Марта</div>
+              <div class="schedule-info">302 каб. - 17:00 (джем-сессия)</div>
+            </div>
+          </div>
+
+          <div class="teacher-card">
+            <div class="teacher-info">
+              <div class="teacher-label">Преподаватель</div>
+              <div class="teacher-name">Криштиану Роналду</div>
+              <div class="teacher-description">
+                — виртуоз гитарист и вдохновляющий преподаватель. Он сочетает
+                безупречную технику и сценическую энергетику с терпением и
+                чуткостью, помогая ученикам раскрыть свой музыкальный потенциал
+                и найти собственный стиль.
+              </div>
+              <div class="teacher-stats">
+                <div class="stat-item">
+                  <span class="stat-icon">🎸</span>
+                  <span>Опыт более 6 лет</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🎤</span>
+                  <span>Выступления на сцене</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🎵</span>
+                  <span>Помощь с записью музыки</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="teacher-photo-placeholder">
+              <img src="./image/1.png" alt="Преподаватель" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section">
+        <h2 class="section-title">Галерея</h2>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="./image/2.png" alt="Галерея 1" />
+          </div>
+
+          <div class="gallery-item">
+            <img src="./image/3.png" alt="Галерея 2" />
+          </div>
+
+          <div class="gallery-item">
+            <img src="./image/4.png" alt="Галерея 3" />
+          </div>
+        </div>
+
+        <div id="join" class="cta-container">
+          <h3 class="cta-title">Хочешь к нам?</h3>
+          <p class="cta-subtitle">Приходи в свободное время или напиши</p>
+          <button class="btn btn-primary">Написать</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <p>© 2026 Гитарный клуб ТСПК. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
